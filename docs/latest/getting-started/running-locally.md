@@ -45,7 +45,7 @@ await start(manifest, { server: { port: 3000 } });
 You can also change the port by setting the `PORT` environment variable:
 
 ```sh Terminal
-$ PORT=3000 deno task start
+$ PORT=3000
 ```
 
 Combining all of this we get the following `deno run` command:
